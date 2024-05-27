@@ -54,5 +54,5 @@ pause
 :: salte todo lo del error
 :errletra
 echo Tienes que usar numeros no letras
-echo Uso: %0 "primer numero" segundo numero"
+echo Uso: %0 "primer numero" "segundo numero"
 :final
