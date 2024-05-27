@@ -14,4 +14,3 @@ echo.
 echo La suma de %num1% y %num2% es: %suma%
 echo La resta de %num1% y %num2% es: %resta%
 echo La multiplicacion de %num1% y %num2% es: %multi%
-
