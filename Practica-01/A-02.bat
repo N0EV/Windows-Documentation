@@ -13,7 +13,7 @@ if "%1" equ "" (
 )
 rem NOTA: en los for se pone "%%" para la variable y solo admite un caracter
 for %%n in (*.%defect%) do (
-	echo !cont!-fichero: %%neq
+	echo !cont!-fichero: %%n
 	set /a cont=!cont!+1
 )
 echo En este directorio hay !cont! ficheros
