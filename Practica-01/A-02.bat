@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 rem Para poder hacer la cuenta bien hay que poner lo de arriba "setlocal enabledelayexpansion"
 rem y hacer una variable para contar
-set cont=0
+set cont=1
 :: Ahora el usuario podra elegir la extension que quiera el por parametro
 set exten=%1
 :: Comprobamos si nos ha pasado algo y si no es asi usaremos .txt por defecto
