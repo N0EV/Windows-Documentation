@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 rem Para poder hacer la cuenta bien hay que poner lo de arriba "setlocal enabledelayexpansion"
 rem y hacer una variable para contar
-set cont=1
+set cont=0
 :: Ahora el usuario podra elegir la extension que quiera el por parametro
 set exten=%1
 :: Ponemos una opcion en el segundo parametro para poder indicar la ruta
@@ -14,18 +14,18 @@ if "%2" equ "" (
 	call A-02.bat
 	goto final
 ) else (
-	set %2=.
+	set lug=%2\
 )
 :: Comprobamos si nos ha pasado algo y si no es asi usaremos .txt por defecto
 if "%1" equ "" (
-	set defect=txt
+	set exten=txt
 ) else (
-	set=%1
+	set exten=%1
 )
 rem NOTA: en los for se pone "%%" para la variable y solo admite un caracter
-for %%n in (*.%defect%) do (
-	echo !cont!-fichero: %%neq
+for %%n in (%lug%*.%exten%) do (
 	set /a cont=!cont!+1
+	echo !cont!-fichero: %%n
 )
 echo En este directorio hay !cont! ficheros@echo off 
 :final

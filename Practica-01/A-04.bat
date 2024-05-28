@@ -8,7 +8,7 @@ if "%num%" equ "" (
 	goto final
 )
 echo Ahora vamos a hacer la tabla de multiplicar de %1
-for %%a in %1 do (
+for %%a in (1,1,10) do (
 	echo Vamos a empezar la multiplicacion
 	set /a mult=%num% * %tab%
 	echo %mult%
