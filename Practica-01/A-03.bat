@@ -11,6 +11,8 @@ set lug=%2
 :: Ahora comprobamos que si no pasa el usuario nada en el parametro
 :: se ejecute en el lugar donde lo esta llamando
 if "%2" equ "" (
+:: Se puede dejar vacio la variable o ponerle un punto
+:: "set lug="  O "set lug=."
 	call A-02.bat
 	goto final
 ) else (
