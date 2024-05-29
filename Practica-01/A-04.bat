@@ -10,6 +10,7 @@ if "%num%" equ "" (
 
 echo Ahora vamos a hacer la tabla de multiplicar de %1
 echo Vamos a empezar la multiplicacion
+:: Aqui le estamos diciendo que coja desde el numero 1, de en 1 en 1, acabe en 10
 for /l %%a in (1,1,10) do (
 	set /a mult=%num% * %%a
 	echo %num% * %%a es !mult!
