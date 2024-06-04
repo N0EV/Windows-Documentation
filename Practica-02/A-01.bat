@@ -1,3 +1,4 @@
+:: NOTA IMPORTANTE: Esto es temporal alomejor lo acabo a lo mejor no
 @echo off
 :: Recogemos por parametro las dos variables
 set nom=%1
