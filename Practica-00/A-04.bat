@@ -1,3 +1,8 @@
+rem ---------------------------------- Enunciado ----------------------------------
+rem Se pide modificar el script del ejercicio anterior de forma que, si el usuario no pasa uno de los parámetros, se lo solicitamos para que lo inserte por teclado.
+rem Si una vez solicitado el número el usuario no lo ha insertado, entonces mostramos un mensaje de error y salimos.
+rem -------------------------------------------------------------------------------
+
 @echo off 
 :: Le pedimos al usuario dos numeros por parametro
 echo Has pasado por parametro dos numeros: %1 %2
