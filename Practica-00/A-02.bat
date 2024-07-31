@@ -1,3 +1,8 @@
+rem ------------------------------- Enunciado ---------------------------------
+rem Modifica el script del ejercicio anterior para que controle que el usuario inserta los dos parámetros necesarios. 
+rem Si no los inserta, se deberá mostrar un mensaje de error y terminar la ejecución del script.
+rem ---------------------------------------------------------------------------
+
 @echo off 
 :: Le pedimos al usuario dos numeros por parametro
 echo Has pasado por parametro dos numeros: %1 %2
