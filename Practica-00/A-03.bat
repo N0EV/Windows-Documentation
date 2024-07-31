@@ -1,3 +1,8 @@
+rem -------------------------------------- Enunciado -------------------------------
+rem Nos gustaría que el resultado de la resta no sea negativo. 
+rem Es decir, si el primer número es menor que el segundo, habrá que hacer algo para que el resultado sea positivo.
+rem --------------------------------------------------------------------------------
+
 @echo off 
 :: Le pedimos al usuario dos numeros por parametro
 echo Has pasado por parametro dos numeros: %1 %2
