@@ -1,3 +1,8 @@
+rem --------------------------------------- Enunciado -------------------------------
+rem Comprueba que los valores proporcionados, cuando se proporcionen, son números y no cadenas de texto.
+rem Si el usuario ha insertado una cadena alfanumérica deberás mostrar un mensaje de error apropiado.
+rem ---------------------------------------------------------------------------------
+
 @echo off 
 :: Le pedimos al usuario dos numeros por parametro
 echo Has pasado por parametro dos numeros: %1 %2
