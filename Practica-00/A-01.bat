@@ -1,8 +1,8 @@
-rem| ------------------------ Enunciado ----------------------------
-rem| Crea un script que reciba por parámetro dos valores. 
-rem| Deberá mostrar por pantalla el resultado de las operaciones de suma, resta y multiplicación de ambos valores.
-rem| En esta primera versión no se pide que se realice ninguna comprobación de parámetros. Nos vamos a centrar en que el script funcione.
-rem| ---------------------------------------------------------------
+rem ------------------------ Enunciado ----------------------------
+rem Crea un script que reciba por parámetro dos valores. 
+rem Deberá mostrar por pantalla el resultado de las operaciones de suma, resta y multiplicación de ambos valores.
+rem En esta primera versión no se pide que se realice ninguna comprobación de parámetros. Nos vamos a centrar en que el script funcione.
+rem ---------------------------------------------------------------
 
 @echo off 
 :: Le pedimos al usuario dos numeros por parametro
