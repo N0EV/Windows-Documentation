@@ -1,3 +1,8 @@
+rem -------------------------------- Enunciado ------------------------------
+rem Crea un script llamado que mostrará en pantalla el nombre de cada uno 
+rem de los ficheros con extensión txt que haya en tu directorio actual.
+rem -------------------------------------------------------------------------
+
 @echo off
 :: Esto lo hacemos para que no tenga un retardo la actualización de los numeros
 setlocal enabledelayedexpansion
