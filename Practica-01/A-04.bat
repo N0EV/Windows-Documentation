@@ -1,5 +1,6 @@
 rem ------------------------------- Enunciado --------------------------------------
 rem Crea un script que recibirá por parámetro un número. Deberá calcular y mostrar la tabla de multiplicar del número pasado por parámetro.
+rem Si no se pasa ningún valor por parámetro, se dará un mensaje de error y terminará la ejecución del script.
 rem --------------------------------------------------------------------------------
 
 @echo off
