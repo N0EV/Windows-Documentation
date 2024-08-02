@@ -1,3 +1,8 @@
+rem --------------------------------- Enunciado ------------------------------------
+rem Modifica el script de forma que reciba como segundo parámetro la ruta de un directorio donde se buscarán los ficheros. 
+rem Si no se pasa segundo parámetro, el script buscará por defecto los ficheros en el directorio actual.
+rem --------------------------------------------------------------------------------
+
 @echo off
 setlocal enabledelayedexpansion
 rem Para poder hacer la cuenta bien hay que poner lo de arriba "setlocal enabledelayexpansion"
