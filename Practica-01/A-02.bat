@@ -1,3 +1,8 @@
+rem ---------------------------------- Enunciado -------------------------------------
+rem Modifica el script anterior de forma que reciba por parámetro la extensión de los ficheros a mostrar. 
+rem Si no se pasa ningún parámetro, entonces se tomará como extensión por defecto TXT.
+rem ----------------------------------------------------------------------------------
+
 @echo off
 setlocal enabledelayedexpansion
 rem Para poder hacer la cuenta bien hay que poner lo de arriba "setlocal enabledelayexpansion"
