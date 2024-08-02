@@ -1,3 +1,7 @@
+rem ------------------------------- Enunciado --------------------------------------
+rem Crea un script que recibirá por parámetro un número. Deberá calcular y mostrar la tabla de multiplicar del número pasado por parámetro.
+rem --------------------------------------------------------------------------------
+
 @echo off
 setlocal enabledelayedexpansion
 set num=%1
