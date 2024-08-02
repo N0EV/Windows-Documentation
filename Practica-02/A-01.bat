@@ -1,4 +1,9 @@
 :: NOTA IMPORTANTE: Esto es temporal alomejor lo acabo a lo mejor no
+rem ------------------------------------- Enunciado -----------------------------------
+rem Crea un nuevo script que recibirá dos valores obligatorios por parámetro. 
+rem El primer parámetro será un nombre de usuario y el segundo parámetro será un nombre de grupo.
+rem -----------------------------------------------------------------------------------
+
 @echo off
 :: Recogemos por parametro las dos variables
 set nom=%1
