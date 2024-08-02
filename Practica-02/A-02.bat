@@ -15,7 +15,8 @@ rem 	- Crear un directorio con el nombre del curso en C:\Cursos.
 rem 	- Dentro del directorio del curso, crearemos un directorio para cada uno de los usuarios del curso.
 rem
 rem Si nos fijamos, esto es lo que hace el script de la actividad anterior. 
-rem Así que lo que vamos a hacer es aprovecharlo. Utilizando un bucle for debemos recorrer los números del 0 al 29 llamando al script de la actividad 1 pasándole por parámetro los valores apropiados. 
+rem Así que lo que vamos a hacer es aprovecharlo. Utilizando un bucle for debemos recorrer los números del 0 al 29 llamando al script de la actividad 1 
+rem pasándole por parámetro los valores apropiados. 
 rem ------------------------------------------------------------------------------
 
 @echo off
