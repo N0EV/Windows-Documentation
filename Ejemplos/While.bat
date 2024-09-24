@@ -2,7 +2,7 @@
 
 echo Selecciona una opción:
 echo 1. Mostrar fecha
-esho 2. Mostrar hora
+echo 2. Mostrar hora
 echo 3. Salir
 set /p opcion=Elige la opcion:
 
